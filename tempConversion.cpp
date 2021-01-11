@@ -22,14 +22,14 @@ cout << "F.Press ‘F’ to convert from Centigrade to Fahrenheit." << endl;
 cout << "C. Press ‘C’ to convert from Fahrenheit to Centigrade." << endl;
 cin >> choice;
 
-if (choice == 'F')
+if (choice == 'F' || choice == 'f')
 {
 fahrenheit = (1.8 * temp) + 32.0; 
 cout << "\nTemperature conversion: " << fahrenheit << " F" << endl;
 
 }
 
-else if (choice == 'C')
+else if (choice == 'C' || choice == 'c')
 {
   centigrade = (temp - 32) / 1.8; 
       cout << "\nTemperature conversion: " << centigrade << " C" << endl;
