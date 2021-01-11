@@ -17,7 +17,6 @@ char choice;
 
 cout << "Please enter the starting temperature:" << endl;
 cin >> temp;
-cout << "Please enter the starting temperature:" << endl;
 
 cout << "F.Press ‘F’ to convert from Centigrade to Fahrenheit." << endl;
 cout << "C. Press ‘C’ to convert from Fahrenheit to Centigrade." << endl;
