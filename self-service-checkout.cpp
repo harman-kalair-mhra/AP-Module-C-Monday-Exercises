@@ -1,3 +1,6 @@
+
+//https://repl.it/join/ccsiqrqn-harmankalair123
+
 // declared a number of variables with appropriate datatypes. Picturing, how will i use these variables.
 // attempted stage by stage, e.g. setting up a while loop and breaking, when pressed 0.
 // using builtin functions to convert string to float.
