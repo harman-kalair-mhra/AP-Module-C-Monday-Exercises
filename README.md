@@ -24,7 +24,22 @@ In-progress
 
 
 ## PRIMER: Number Guesser:
-In-progress
+C++ ‘guess the number’ game supports three levels of difficulty; level 1 is limited to numbers 1-10, level 2 is limited to numbers 1-100 and level 3 is limited to numbers 1-1000. Prompt the user to select a difficulty level before the game begins. The program picks a random number and prompts the player to ‘guess’; each time the player ‘guesses’ the program should provide a hint (e.g., too low, too high). The program logs the number of guesses and once correct tells the player how many attempts were made before asking them to ‘play again’.
+
+Example Format shown below:
+```
+Let’s play ‘Guess the Number’
+Please pick a difficulty level (1, 2 or 3)? 1
+Great, I have randomly picked a number in the range 1 - 10
+
+What’s your guess? 5
+Too low, guess again: 8
+Too high, guess again: 7
+
+Well done, the number was 7 – you got it in 3 guesses
+Do you want to play again (Y/N)? N
+No problem, see you later.
+```
 
 ## PRIMER: Self Service Checkout:
 Simple C++ Self-Service Checkout program. This program allows the user to enter the quantity and price of the items. A simple calculation has been used to workout the Shopping Tax.
